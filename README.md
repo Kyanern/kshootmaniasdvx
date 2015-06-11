@@ -2,9 +2,13 @@
 
 SDVX Song packages meant for use in KShootMania. 
 
-These charts follows the offical sdvx charts closely to emulate the original experience.
+These charts follows the offical sdvx charts closely to emulate the original experience.  
 
-## How to setup for playing ##
+## SDVX and SDVX II Song packages ##
+The song packs can be found [here](https://github.com/Schinizer/kshootmaniasdvx/releases). 
+
+## SDVX III Song packages ##
+### How to setup for playing ###
 1. Empty out the directory of "kshootmania\songs"
 2. Clone the repository directly into "kshootmania\songs"
 3. **`Optional`** Revert your directory to its original state (This repository is configured to ignore all other songs)
@@ -16,14 +20,10 @@ The repository is configured this way for easy editing and playing the charts.
 ### Video Walkthrough ###
 [![Screenshot](http://schinizer.github.io/kshootmaniasdvx/githubTutorials/VideoWalkthrough.png)](https://www.youtube.com/watch?v=3Sh1gX-e9JE)
 
-# Contributing to this project #
+# Contributing to this project (Under Edit)#
 
-There are incomplete charts located in `\incompleteChart` folder.  
-They are configured exactly like the `songs` folder of KShootMania.  
-In `\incompleteChart\<song name>`, you will find the `.ksm` charts.  
-They are fully mapped and in need of a little work to be playable.  
-
-`If you cannot find the diffculty you are looking for, I'm sad to say I don't have the chart yet :(`
+This project has completed all SDVX and SDVX II charts. They have been archived and released.  
+This repo will now only accept SDVX III charts.
 
 ## Processing the charts##
 1. Fork this repository & create a new branch
@@ -147,6 +147,7 @@ Here is a simple check list to look out for:
 # Project Status & Milestones #
 - [x] Extract data from [SDVX 譜面播放器](http://sdvx-sheet.github.io/) and convert them into `.ksh` charts
 - [x] Populate extracted data with meta data
-- [ ] `In Progress` Process extracted `.ksh` charts
-- [ ] Create remainder SDVX songs charts with meta data
-- [ ] SDVX Song requests | Plot remaining SDVX songs
+- [x] Process extracted `.ksh` charts
+- [x] Create remainder SDVX songs charts with meta data
+- [x] SDVX Song requests | Plot remaining SDVX songs
+- [ ] `In Progress` SDVX III Songs
